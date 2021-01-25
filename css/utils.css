@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+:root {
+  --main-bg-color: #333333;
+  --font1: 'Padauk', sans-serif;
+  --font2: 'Karla', sans-serif;
+  --font3: 'Barlow', sans-serif;
+}
+
+.max-width-1 {
+  max-width: 100%;
+}
+
+.max-width-2 {
+  max-width: 100%;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.btn:hover {
+  background: #00adb5;
+  color: black;
+}
+
+.form-input {
+  padding: 0px 5px;
+  padding-top: 3px;
+  font-size: 16px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin: 0px 14px;
+  font-family: var(--font1);
+}
+
+.btn {
+  margin-right: 20px;
+  padding: 0px 25px;
+  padding-top: 3px;
+  border: 3px solid black;
+  border-radius: 7px;
+  font-family: var(--font1);
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.content-left {
+  color: white;
+  margin-left: 220px;
+  font-family: var(--font1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-right img {
+  height: 355px;
+}
+
+.home-articles {
+  background-color: #00adb5;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  position: relative;
+
+}
+.year-box{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin-left: 1000px;
+  margin-top: 110px;
+}
+.year-box div{
+  margin:12px 0px;
+  font-size: 18px;
+}
+.home-article {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.home-article img{
+  width: 300px;
+  margin-left: 220px;
+
+}
+
+.font1 {
+  font-family: var(--font1);
+}
+
+.font2 {
+  font-family: var(--font2);
+}
+.font3{
+  font-family: var(--font3);
+}
+.poem-heading{
+  margin: 25px 220px;
+  color: black;
+
+}
+.first-poem{
+  margin-left: 220px;
+}
+.first-poem a{
+  text-decoration: none;
+  color:black;
+  font-family: var(--font2);
+}
+.home-img img{
+  height: 200px;
+  border-radius: 15px;
+}
+.content-left h1{
+  margin-top: -19px;
+  padding-bottom: : 10px;
+}

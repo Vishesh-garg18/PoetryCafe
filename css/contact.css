@@ -1,0 +1,27 @@
+.contact-content{
+  height: 395px;
+  height: 90vh;
+  background-color: #14274e;
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  overflow: hidden;
+
+}
+.contact-form{
+  display: flex;
+  margin-left: 220px;
+  flex-direction: column;
+  margin-top: -7px;
+}
+.form-box{
+  margin-top: 11px;
+}
+.form-box input, textarea{
+  width: 40vw;
+  padding: 10px 6px;
+  margin: 7px 0px;
+  font-size: 14px;
+  font-family: var(--font2);
+  border-radius: 4px;
+}
